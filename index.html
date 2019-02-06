@@ -37,8 +37,21 @@
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Tribute Page</div>
+        <div class="w3-display-topleft w3-black w3-padding w3-button" onclick="document.getElementById('projectModal1').style.display='block'">Tribute Page</div>
         <img src="Tribute_Thumbnail.jpg" alt="Tribute page thumbnail" style="width:100%">
+        <div id="projectModal1" class="w3-modal">
+        	<div class="w3-modal-content w3-animate-zoom w3-card-4">
+        		<header class="w3-container w3-black">
+        			<span onclick="document.getElementById('projectModal1').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        			<h2 style="color:white">Tribute Page</h2>
+        		</header>
+        		<div class="w3-container">
+        			<p></p>
+        		</div>
+        		<footer class="w3-container w3-black">
+        		</footer>
+        	</div>
+        </div>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
